@@ -1,0 +1,5 @@
+{%- comment -%} start loyalty+ bonus app {%- endcomment -%} {% if
+content_for_header contains 'myshopify.com' %}
+<script src="{{ 'loyalty-utils.js' | asset_url }}"></script>
+{% include 'loyalty-vars' %} {% endif %} {%- comment -%} end loyalty+ bonus app
+{%- endcomment -%}
